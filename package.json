@@ -1,0 +1,21 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "Personal dashboard",
+  "main": "server.js",
+  "scripts": {
+    "forever": "node_modules/.bin/nodemon -i API/server",
+    "initsql": "mysql -u root -p < sql_init.sql"
+  },
+  "author": "Pawel Szymczyk",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mysql": "^2.13.0",
+    "nodemon": "^1.11.0"
+  },
+  "devDependencies": {
+    "eslint": "file:eslint"
+  }
+}

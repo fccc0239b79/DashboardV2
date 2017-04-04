@@ -1,0 +1,9 @@
+{
+    "mysql": {
+        "host": "localhost",
+        "user": "root",
+        "password": "W58.5c10W1",
+        "charset": "UTF8MB4",
+        "database": "dashboardDB"
+    }
+}
